@@ -5,69 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/assets/header.css">
+
   <title>Coffé</title>
 </head>
 <body>
-  <header>
-    <div class="ancho">
-      <div class="logo">
-        <p><a href="#">Blog<strong>DeCafé</strong></a></p>
-      </div>
-      <nav>
-      <ul>
-        <li><a href="#">Nosotros</a></li>
-        <li ><a href="#">Cursos</a></li>
-        <li><a href="#">Contacto  </a></li>
+ 
+<!-- header -->
+<header class="header">
+  <div class="header__container">
+    <!-- logo -->
+    <div class="header__container__logo">
+      <h2>
+        <a href="./index.html">
+          Coffee
+          <span>Pag</span>
+        </a>
+      </h2>
+      <img class="menuicon" src="./src/assets/img/menu.png" alt="menu" />
+    </div>
+    <!-- /logo -->
+    <nav class="hmenu">
+      <ul class="header__container__menu">
+        <li class="header__container__menu__list">
+          <a class="select active" href="./index.html">Home</a>
+        </li>
+        <li class="header__container__menu__list">
+          <a class="select" href="./src/component/aboutus/aboutus.html">About us</a>
+        </li>
+        <li class="header__container__menu__list">
+          <a class="select" href="#">Courses</a>
+        </li>
+        <li class="header__container__menu__list">
+          <a class="select" href="#">Contacts</a>
+        </li>
+        <li class="header__container__menu__list">
+          <a class="select" href="#">Products</a>
+        </li>
+        <li class="header__container__menu__list">
+          <a href="#"
+            ><img
+              class="sizeimg"
+              src="./src/assets/img/shoppingcart.png"
+              alt="Shopping cart icon"
+          /></a>
+        </li>
       </ul>
     </nav>
   </div>
-  </header>
-  <div class="title_header">
-    <h1>Blog de café con consejos y cursos</h1>
-    <p>Aprende de los expertos con las mejores recetas y consejos</p>
-  </div>
-  <main>
-    <section class="main-article">
-      <h2>Nuetro Blog</h2>
-      <article>
-        <img src="./img/coffee-g17c52faf1_1280.jpg" alt="tasa-café">
-        <h3>Tres Deliciosas recetas De Café</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit eum atque enim molestias quasi aspernatur, facere, veritatis dolor omnis autem nostrum dolorum unde inventore nemo sunt expedita maxime minima.</p>
-        <button class="button">Leer Entrada</button>
-      </article>
-      <article>
-      <img src="./img/coffee-g523c9abfc_1280.jpg" alt="tasa-café">
-      <h3>Tres Deliciosas recetas De Café</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit eum atque enim molestias quasi aspernatur, facere, veritatis dolor omnis autem nostrum dolorum unde inventore nemo sunt expedita maxime minima.</p>
-      <button class="button">Leer Entrada</button>
-    </article>
-    <article>
-    <img src="./img/coffee-g095244b9f_1280.jpg" alt="tasa-café">
-    <h3>Tres Deliciosas recetas De Café</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit eum atque enim molestias quasi aspernatur, facere, veritatis dolor omnis autem nostrum dolorum unde inventore nemo sunt expedita maxime minima.</p>
-    <button class="button">Leer Entrada</button>
-  </article>
-      
-    </section>
-    <section class="section-vertical">
-      <h2>Nuestros Cursos y Talleres</h2>
-      <article>
-        <h3>Técnicas de Extracción de Café</h3>
-        <div class="section-vertical_p">
-          <p><samp>Precio</samp>&nbsp Gratis &nbsp </p>
-          <p><samp>Cupos</samp>&nbsp 20</p>
-        </div>
-        <button class="button">Conocé más del café</button>
-      </article>
-      <article>
-        <h3>Técnicas de Extracción de Café</h3>
-        <div class="section-vertical_p">
-          <p><samp>Precio</samp>&nbsp Gratis &nbsp </p>
-          <p><samp>Cupos</samp>&nbsp 20</p>
-        </div>
-        <button class="button">Conocé más del café</button>
-      </article>
-    </section>
-  </main>
+</header>
+<!-- /header -->
+
 </body>
 </html>
