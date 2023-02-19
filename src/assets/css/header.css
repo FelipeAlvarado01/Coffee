@@ -4,11 +4,14 @@
   --maincolor: #fafbfc;
   --coffeecolor: #6f4e37;
   --coalcolor: #333333;
-  
+
   --navMenuE: polygon(0 0, 0 0, 0 100%, 0 100%);
 }
 
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
   background: var(--maincolor);
 }
 
@@ -73,7 +76,7 @@ body {
   height: 2px;
   margin-top: 1px;
   clip-path: var(--navMenuE);
-  transition: clip-path .15s;
+  transition: clip-path 0.15s;
 }
 .sizeimg {
   width: 24px;
@@ -90,7 +93,11 @@ body {
   display: none;
 }
 
-@media (max-width: 825px) {
+@media (max-width: 925px) {
+  
+  .header {
+    height: 10vh;
+  }
   .header__container {
     display: block;
   }
@@ -129,8 +136,9 @@ body {
   }
   .header {
     width: 100vw;
-    height: 9vh;
+    height: 6vh;
   }
+
   .header__container {
     display: block;
     height: max-content;
@@ -159,7 +167,7 @@ body {
   }
   .activemenu {
     visibility: visible;
-    height: 40vh;
+    height: 30vh;
     top: 60px;
   }
   .header__container__menu {
