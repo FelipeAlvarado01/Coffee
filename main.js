@@ -37,9 +37,11 @@ ejemplo.addEventListener('click',function(e){
   esconder.style.display='block';
   mostra.style.display='none';
   contador1++;
-  document.getElementById('meGusta1').innerText =`
+
+/* funciòn vistas card1*/
+   document.getElementById('meGusta1').innerHTML =`
   ${contador1}`;
-  e.preventDefault();
+
 })
 
 /* div2*/ 
@@ -58,7 +60,8 @@ ejemplo_div2.addEventListener('click',function(){
   esconder_div2.style.display='block';
   mostrar_div2.style.display='none';
   contador2++;
-  document.getElementById('meGusta2').innerText =`
+  /* funciòn vistas card1*/
+  document.getElementById('meGusta2').innerHTML =`
   ${contador2}`;
 })
 
@@ -79,7 +82,7 @@ ejemplo1_div3.addEventListener('click',function(e){
 ejemplo_div3.addEventListener('click',function(e){
   esconder_div3.style.display='block';
   mostrar_div3.style.display='none';
-  
+/* funciòn vistas card3*/  
   contador3++;
   document.getElementById('meGusta3').innerText =`
   ${contador3}`;
@@ -103,7 +106,7 @@ ejemplo1_div4.addEventListener('click',function(e){
 ejemplo_div4.addEventListener('click',function(e){
   esconder_div4.style.display='block';
   mostra_div4.style.display='none';
-
+/* funciòn vistas card4*/
   contador4++;
   document.getElementById('meGusta4').innerText =`
   ${contador4}`;
@@ -127,7 +130,7 @@ ejemplo1_div5.addEventListener('click',function(e){
 ejemplo_div5.addEventListener('click',function(e){
   esconder_div5.style.display='block';
   mostra_div5.style.display='none';
-  
+  /* funciòn vistas card5*/
   contador5++;
   document.getElementById('meGusta5').innerText =`
   ${contador5}`;
@@ -151,7 +154,7 @@ ejemplo1_div6.addEventListener('click',function(e){
 ejemplo_div6.addEventListener('click',function(e){
   esconder_div6.style.display='block';
   mostra_div6.style.display='none';
-
+/* funciòn vistas card6*/
   contador6++;
   document.getElementById('meGusta6').innerText =`
   ${contador6}`;
