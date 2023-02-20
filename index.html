@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,250 +12,233 @@
 
   <title>Coffé</title>
 </head>
-
 <body>
-
-  <!-- header -->
-  <header class="header">
-    <div class="header__container">
-      <!-- logo -->
-      <div class="header__container__logo">
-        <img class="logo1" src="./src/assets/img/logo_sinFondo.png" alt="Logo?wlans"
-          style="width: 300px;">
-        <img class="menuicon" src="./src/assets/img/menu.png" alt="menu" />
+ <!-- header -->
+    <header class="header">
+      <div class="header__container">
+        <!-- logo -->
+        <div class="header__container__logo">
+          <h2>
+            <a href="./index.html">
+              Coffee
+              <span>Pag</span>
+            </a>
+          </h2>
+          <img class="menuicon" src="./src/assets/img/menu.png" alt="menu" />
+        </div>
+        <!-- /logo -->
+        <nav class="hmenu">
+          <ul class="header__container__menu">
+            <li class="header__container__menu__list">
+              <a class="select active" href="./index.html">Inicio</a>
+            </li>
+            <li class="header__container__menu__list">
+              <a class="select" href="./src/component/aboutus/aboutus.html">Acerca</a>
+            </li>
+            <li class="header__container__menu__list">
+              <a class="select" href="#">Cursos</a>
+            </li>
+            <li class="header__container__menu__list">
+              <a class="select" href="#">Contactenos</a>
+            </li>
+            <li class="header__container__menu__list">
+              <a href="#"
+                ><img
+                  class="sizeimg"
+                  src="./src/assets/img/shoppingcart.png"
+                  alt="Shopping cart icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <!-- /logo -->
-      <nav class="hmenu">
-        <ul class="header__container__menu">
-          <li class="header__container__menu__list">
-            <a class="select active" href="./index.html">Home</a>
-          </li>
-          <li class="header__container__menu__list">
-            <a class="select" href="./src/component/aboutus/aboutus.html">About us</a>
-          </li>
-          <li class="header__container__menu__list">
-            <a class="select" href="#">Courses</a>
-          </li>
-          <li class="header__container__menu__list">
-            <a class="select" href="#">Contacts</a>
-          </li>
-          <li class="header__container__menu__list">
-            <a class="select" href="#">Products</a>
-          </li>
-          <li class="header__container__menu__list">
-            <a href="#"><img class="sizeimg" src="./src/assets/img/shoppingcart.png"
-                alt="Shopping cart icon" /></a>
-          </li>
-        </ul>
-      </nav>
+    </header>
+<!-- /header -->
+<main>
+<article class="img__header">
+<h1>Blog de café con consejos y cursos</h1>
+<h2>Aprender de los expertos con las mejores recetas y consejos</h2>
+</article>
+
+<section class="curso_main">
+ <div class="curso_img">
+ <img src="./src/assets/img/logo_sinFondo.png" alt=""> 
+ </div>
+ <div class="js_cursos1">
+  <h2>Nustros cursos y talleres</h2>
+  <ul>
+    <li>Tecnicas de extraccion</li>
+    <li>Curso de Tueste Nivel 1</li>
+    <li>Análisis Sensorial</li>
+    <li>Curso Brew-Infusiones</li>
+    <li>Laboratorio de Cafe </li>
+    <li>Curso práctico de preparación</li>
+  </ul>
+  <button class="btn rounded" id="cursos"><span class="text-green">Conoce mas del Café</span></button>
+</div>
+ 
+</section>
+<div class="texto__animado">
+<h2>Seis deliciosas recetas :</h2>
+<ul><li>Recetas tradicionales </li>
+    <li>Para verdadero Apasionado</li>
+    <li>Motivos para enamorarte </li>
+  <li>practicas</li>
+</ul>
+</div>
+<section class="text__header">
+  <article class="img_article">
+    <div class="face front">
+      <h3>Café helado con coco</h3>
+    <img src="./src/assets/img/cafe-coco.jpg" alt="coffee1">
+   </div>
+   <div class="face backk">
+    <h3>Café helado con coco</h3>
+    <div id="esconder">
+    <p >Ingredientes:</p>
+    <ul>
+      <li>Café intenso (al gusto</li>
+      <li>1 cucharada de azúcar moreno (10 g)</li>
+      <li>1 cucharada de helado de coco (10 g)</li>
+      <li>¼ cucharadita de canela (1,2 g)</li>
+      <li>½ cucharadita de coco rallado (2,5 g)</li>
+    </ul>
+    <button id="ejemplo1">Ver receta</button>
+    <div class="redes">
+    <img 
+    src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong> 
+   <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"> <strong id=meGusta1></strong> 
+  </div>
+  </div> 
+    <div id="mostra">
+      <button id="ejemplo">x</button>
+      <h4>Preparación</h4>
+    <p>
+      Para empezar a elaborar esta sencilla receta prepararemos un café solo que tenga un sabor intenso.Después, le añadimos una cucharada de azúcar moreno y una cucharada de helado de coco.<br>
+      A continuación, añadimos la canela y lo mezclamos bien.Al final, basta con espolvorear por encima las ralladuras de coco para tener lista esta deliciosa bebida.</p>
+      
+   
+  </div>
+  </div>
+  </article>
+
+  <article class="img_article">
+    <div class="face front">
+      <h3>El Cappuccino Moka</h3>
+    <img src="./src/assets/img/capuchino.jpg" alt="coffee1">
+   </div>
+   <div class="face backk">
+    <h3>El Cappuccino Moka</h3>
+     <div id="esconder_div2">
+    <p>Ingredientes:</p>
+    <ul>
+      <li>100 ml. de leche.</li>
+      <li>Café Espresso</li>
+      <li>Chocolate negro o con leche.</li>
+      <li>Azúcar (al gusto).</li>
+      <li>Cacao en polvo.</li>
+    </ul>
+      
+      <button id="ejemplo1_div2">ver receta </button>
+
+      <div class="redes">
+        <img 
+        src="./src/assets/img/amor.png" alt="me gusta" width="50px"> <strong>12</strong>
+       <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong id="meGusta2"></strong>
+      </div>
+    </div> 
+    <div id="mostra_div2">
+      <button id="ejemplo_div2">x</button>
+      <h4>Preparación</h4>
+      <p> Vierte el café de su máquina espresso y calienta la leche sin dejar que llegue a hervir. Empieza con un poco de aire para calentar la leche y cuando vayas aumentando el vapor, la leche se espumará.<br> Funde el cacao hasta conseguir una bebida líquida y una vez agregada la leche caliente coloca el cacao fundido. Cubre la mezcla con la espuma de leche y espolvorea el cacao en polvo. Suele servirse en una taza (capacidad alrededor de 170 ml.).</p>
+      
+    </div>  
     </div>
-  </header>
-  <!-- /header -->
-  <main>
-    <article class="img__header">
-      <h1>Blog de café con consejos y cursos</h1>
-      <h2>Aprender de los expertos con las mejores recetas y consejos</h2>
-    </article>
-
-    <section class="curso_main">
-      <div class="curso_img">
-        <img src="./src/assets/img/logo_sinFondo.png" alt="">
-      </div>
-      <div class="js_cursos1">
-        <h2>Nustros cursos y talleres</h2>
-        <ul>
-          <li>Tecnicas de extraccion</li>
-          <li>Curso de Tueste Nivel 1</li>
-          <li>Análisis Sensorial</li>
-          <li>Curso Brew-Infusiones</li>
-          <li>Laboratorio de Cafe </li>
-          <li>Curso práctico de preparación</li>
-        </ul>
-        <button class="btn rounded" id="cursos"><span class="text-green">Conoce mas del
-            Café</span></button>
-      </div>
-
-    </section>
-    <div class="texto__animado">
-      <h2>Seis deliciosas recetas :</h2>
-      <ul>
-        <li>Recetas tradicionales </li>
-        <li>Para verdadero Apasionado</li>
-        <li>Motivos para enamorarte </li>
-        <li>practicas</li>
-      </ul>
     </div>
-    <section class="text__header">
-      <article class="img_article">
-        <div class="face front">
-          <h3>Café helado con coco</h3>
-          <img src="./src/assets/img/cafe-coco.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>Café helado con coco</h3>
-          <div id="esconder">
-            <p>Ingredientes:</p>
-            <ul>
-              <li>Café intenso (al gusto</li>
-              <li>1 cucharada de azúcar moreno (10 g)</li>
-              <li>1 cucharada de helado de coco (10 g)</li>
-              <li>¼ cucharadita de canela (1,2 g)</li>
-              <li>½ cucharadita de coco rallado (2,5 g)</li>
-            </ul>
-            <button id="ejemplo1">Ver receta</button>
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"> <strong
-                id=meGusta1></strong>
-            </div>
-          </div>
-          <div id="mostra">
-            <button id="ejemplo">x</button>
-            <h4>Preparación</h4>
-            <p>
-              Para empezar a elaborar esta sencilla receta prepararemos un café solo que tenga un
-              sabor intenso.Después, le añadimos una cucharada de azúcar moreno y una cucharada de
-              helado de coco.<br>
-              A continuación, añadimos la canela y lo mezclamos bien.Al final, basta con espolvorear
-              por encima las ralladuras de coco para tener lista esta deliciosa bebida.</p>
+  </article>
+  <article class="img_article">
+    <div class="face front">
+    <h3>Torta de café</h3>
+    <img src="./src/assets/img/tortacafe.jpg" alt="coffee1">
+  </div>
+   <div class="face backk">
+    <h3>Torta de café</h3>
+    <div id="esconder_div3">
+    <p> Ingredientes:</p>
+    <ul>
+      <li>300 Gramos harina</li>
+      <li>300 Gramos Azúcar</li>
+      <li>3 Cucharaditas Polvo Para Hornear</li>
+      <li>50 Gramos Polvo Chocolatado Nesquik</li>
+      <li>1/2 Cucharadita Sal</li>
+      <li>30 Centimetros cúbicos Vinagre De Alcohol</li>
+      <li>5 Cucharaditas Café</li>
+      <li>225 Centimetros cúbicos Agua Tibia</li>
+      <li>50 Centimetros cúbicos Aceite De Maíz</li>
+    </ul>
+    <button id="ejemplo1_div3">ver receta</button>
+    <div class="redes">
+      <img 
+      src="./src/assets/img/amor.png" alt="me gusta" width="50px"> <strong>12</strong> 
+     <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong id="meGusta3"></strong> 
+    </div>
+  </div>  
+    
+    <div id="mostra_div3">
+      <button id="ejemplo_div3">x</button>
+      <h4>Preparación</h4>
+   <p>Enmantecar y enharinar un molde de 22 cm de diámetro,cernir en el molde la harina, el polvo para hornear, el azúcar, la sal y el Polvo Chocolatado.<br>Hacer 2 huecos en la mezcla, en uno de ellos colocar el aceite y en el otro el vinagre,disolver el Café en el agua tibia y agregar a la preparación revolviendo con cuchara de madera, mezclando todo muy bien, cocinar en horno moderado durante 40 minutos.
+    </p> 
+   
+    </div>
+  </div>
+  </article>
+ </section>
 
+<section class="text__header">
+  
+  <article class="img_article">
+    <div class="face front">
+    <h3>Flan de café</h3>
+    <img src="./src/assets/img/flant.jpg" alt="coffee1">
+  </div>
+  <div class="face backk">
+    <h3>Flan de café</h3>
+     <div id="esconder_div4">
+    <p>Ingredientes:</p>
+    <ul>
+      <li>120 gramos de miel</li>
+      <li> 900 mililitros de leche</li>
+      <li>9 huevos</li>
+      <li>180 gramos de azúcar</li>
+      <li>20 gramos de café soluble</li>
+    </ul>
+    <button id="ejemplo1_div4" >ver receta</button> 
+    <div class="redes">
+      <img 
+      src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong> 
+     <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong id="meGusta4"></strong> 
+    </div>
+  </div> 
+  <div id="mostra_div4">
+    <button id="ejemplo_div4">x</button>
+    <h4>Preparación</h4>
+      <p>
+      Vierte miel en las flaneras,cubre la base de las flaneras con una cucharada de miel,Hierve la leche con el café,coloca la leche en un cazo al fuego y cuando esté caliente, agrega el café soluble y deja hervir,hierve la leche con el café,bate los huevos.<br>
+      Mientras, casca los huevos en un bol, agrega el azúcar y bate bien con varillas eléctricas,agrega la leche,ve añadiendo la leche caliente poco a poco sobre los huevos y el azúcar, Agrega la leche,cuece los flanes,ierte la mezcla en las flaneras y cuece los flanes al baño María en horno durante 55 minutos</p>
+      
+    </div>
+  </div>
+  </article>
 
-          </div>
-        </div>
-      </article>
-
-      <article class="img_article">
-        <div class="face front">
-          <h3>El Cappuccino Moka</h3>
-          <img src="./src/assets/img/capuchino.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>El Cappuccino Moka</h3>
-          <div id="esconder_div2">
-            <p>Ingredientes:</p>
-            <ul>
-              <li>100 ml. de leche.</li>
-              <li>Café Espresso</li>
-              <li>Chocolate negro o con leche.</li>
-              <li>Azúcar (al gusto).</li>
-              <li>Cacao en polvo.</li>
-            </ul>
-
-            <button id="ejemplo1_div2">ver receta </button>
-
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"> <strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong
-                id="meGusta2"></strong>
-            </div>
-          </div>
-          <div id="mostra_div2">
-            <button id="ejemplo_div2">x</button>
-            <h4>Preparación</h4>
-            <p> Vierte el café de su máquina espresso y calienta la leche sin dejar que llegue a
-              hervir. Empieza con un poco de aire para calentar la leche y cuando vayas aumentando
-              el vapor, la leche se espumará.<br> Funde el cacao hasta conseguir una bebida líquida
-              y una vez agregada la leche caliente coloca el cacao fundido. Cubre la mezcla con la
-              espuma de leche y espolvorea el cacao en polvo. Suele servirse en una taza (capacidad
-              alrededor de 170 ml.).</p>
-
-          </div>
-        </div>
-        </div>
-      </article>
-      <article class="img_article">
-        <div class="face front">
-          <h3>Torta de café</h3>
-          <img src="./src/assets/img/tortacafe.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>Torta de café</h3>
-          <div id="esconder_div3">
-            <p> Ingredientes:</p>
-            <ul>
-              <li>300 Gramos harina</li>
-              <li>300 Gramos Azúcar</li>
-              <li>3 Cucharaditas Polvo Para Hornear</li>
-              <li>50 Gramos Polvo Chocolatado Nesquik</li>
-              <li>1/2 Cucharadita Sal</li>
-              <li>30 Centimetros cúbicos Vinagre De Alcohol</li>
-              <li>5 Cucharaditas Café</li>
-              <li>225 Centimetros cúbicos Agua Tibia</li>
-              <li>50 Centimetros cúbicos Aceite De Maíz</li>
-            </ul>
-            <button id="ejemplo1_div3">ver receta</button>
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"> <strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong
-                id="meGusta3"></strong>
-            </div>
-          </div>
-
-          <div id="mostra_div3">
-            <button id="ejemplo_div3">x</button>
-            <h4>Preparación</h4>
-            <p>Enmantecar y enharinar un molde de 22 cm de diámetro,cernir en el molde la harina, el
-              polvo para hornear, el azúcar, la sal y el Polvo Chocolatado.<br>Hacer 2 huecos en la
-              mezcla, en uno de ellos colocar el aceite y en el otro el vinagre,disolver el Café en
-              el agua tibia y agregar a la preparación revolviendo con cuchara de madera, mezclando
-              todo muy bien, cocinar en horno moderado durante 40 minutos.
-            </p>
-
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="text__header">
-
-      <article class="img_article">
-        <div class="face front">
-          <h3>Flan de café</h3>
-          <img src="./src/assets/img/flant.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>Flan de café</h3>
-          <div id="esconder_div4">
-            <p>Ingredientes:</p>
-            <ul>
-              <li>120 gramos de miel</li>
-              <li> 900 mililitros de leche</li>
-              <li>9 huevos</li>
-              <li>180 gramos de azúcar</li>
-              <li>20 gramos de café soluble</li>
-            </ul>
-            <button id="ejemplo1_div4">ver receta</button>
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong
-                id="meGusta4"></strong>
-            </div>
-          </div>
-          <div id="mostra_div4">
-            <button id="ejemplo_div4">x</button>
-            <h4>Preparación</h4>
-            <p>
-              Vierte miel en las flaneras,cubre la base de las flaneras con una cucharada de
-              miel,Hierve la leche con el café,coloca la leche en un cazo al fuego y cuando esté
-              caliente, agrega el café soluble y deja hervir,hierve la leche con el café,bate los
-              huevos.<br>
-              Mientras, casca los huevos en un bol, agrega el azúcar y bate bien con varillas
-              eléctricas,agrega la leche,ve añadiendo la leche caliente poco a poco sobre los huevos
-              y el azúcar, Agrega la leche,cuece los flanes,ierte la mezcla en las flaneras y cuece
-              los flanes al baño María en horno durante 55 minutos</p>
-
-          </div>
-        </div>
-      </article>
-
-      <article class="img_article">
-        <div class="face front">
-          <h3>Café especiado indio</h3>
-          <img src="./src/assets/img/coffee-g17c52faf1_1280.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>Café especiado indio</h3>
-          <div id="esconder_div5"">
+  <article class="img_article">
+   <div class="face front">
+    <h3>Café especiado indio</h3>
+    <img src="./src/assets/img/coffee-g17c52faf1_1280.jpg" alt="coffee1">
+   </div>
+   <div class="face backk">
+    <h3>Café especiado indio</h3>
+    <div id="esconder_div5"">
     <p>Ingredientes:</p>
     <ul>
       <li>cucharadita de té chai (2,5 g)</li>
@@ -264,99 +246,93 @@
       <li>½ cucharadita de cacao en polvo (2,5 g)</li>
       <li>Café indio (al gusto)</li>
     </ul>
-    <button id=" ejemplo1_div5">ver receta </button>
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong
-                id="meGusta5"></strong>
-            </div>
-          </div>
-          <div id="mostra_div5">
-            <button id="ejemplo_div5">x</button>
-            <h4>Preparación</h4>
-            <p>Para preparar este café indio, comenzamos calentando la leche y añadiendo el chai
-              cuando esta esté casi hirviendo. Después, dejamos que el té se infusione durante unos
-              3 o 4 minutos.
-              Mientras tanto, preparamos un café indio doble. Cuando esté listo, colamos la leche
-              para retirar los restos de té y la vertemos sobre el café.
-              Por último, lo mezclamos bien y espolvoreamos el cacao por encima.</p>
+    <button id="ejemplo1_div5" >ver receta </button>
+    <div class="redes">
+      <img 
+      src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong> 
+     <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong id="meGusta5"></strong> 
+    </div>
+  </div> 
+    <div id="mostra_div5">
+      <button id="ejemplo_div5">x</button>
+    <h4>Preparación</h4>
+       <p>Para preparar este café indio, comenzamos calentando la leche y añadiendo el chai cuando esta esté casi hirviendo. Después, dejamos que el té se infusione durante unos 3 o 4 minutos.
+        Mientras tanto, preparamos un café indio doble. Cuando esté listo, colamos la leche para retirar los restos de té y la vertemos sobre el café.
+        Por último, lo mezclamos bien y espolvoreamos el cacao por encima.</p> 
+       
+      </div>
+   </div>
+  </article>
+  <article class="img_article">
+    <div class="face front">
+      <h3>Atole de café y canela</h3>
+    <img src="./src/assets/img/atol.jpg" alt="coffee1">
+   </div>
+   <div class="face backk">
+    <h3>Atole de café y canela.</h3>
+     <div id="esconder_div6">
+    <p>Ingredientes :</p>
+      <ul>
+        <li> 4 Tazas de Agua</li>
+        <li>1/2 Piezas de Canela en raja</li>
+        <li> 3/4 Taza de Piloncillo rallado</li>
+        <li>1/2 Cucharadas de Café</li>
+        <li> Lata de Leche Evaporada(1 1/2 tazas)</li>
+        <li>5 Cucharadas de Fécula de maíz disueltas en ½ taza de agua  Calienta</li>
+      </ul>
+      <button id="ejemplo1_div6">ver receta </button>
+      <div class="redes">
+        <img 
+        src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong> 
+       <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong id="meGusta6"></strong> 
+      </div>
+    </div > 
+    <div id="mostra_div6">
+      
+      <button id="ejemplo_div6">x</button>
+      <h4>Preparación</h4>
+      <p>Calienta el agua con la canela y el piloncillo, mueve constantemente hasta que el piloncillo se disuelva.
+      Disuelve,agrega el Café con 1 ½ tazas de Leche Evaporada  y la fécula de maíz previamente disuelta. Calienta hasta que espese ligeramente, moviendo constantemente para evitar que se pegue.<br>Sirve.
+    </p>
+   </div>
+   </div>
+  </article>
+</section>
 
-          </div>
-        </div>
-      </article>
-      <article class="img_article">
-        <div class="face front">
-          <h3>Atole de café y canela</h3>
-          <img src="./src/assets/img/atol.jpg" alt="coffee1">
-        </div>
-        <div class="face backk">
-          <h3>Atole de café y canela.</h3>
-          <div id="esconder_div6">
-            <p>Ingredientes :</p>
-            <ul>
-              <li> 4 Tazas de Agua</li>
-              <li>1/2 Piezas de Canela en raja</li>
-              <li> 3/4 Taza de Piloncillo rallado</li>
-              <li>1/2 Cucharadas de Café</li>
-              <li> Lata de Leche Evaporada(1 1/2 tazas)</li>
-              <li>5 Cucharadas de Fécula de maíz disueltas en ½ taza de agua Calienta</li>
-            </ul>
-            <button id="ejemplo1_div6">ver receta </button>
-            <div class="redes">
-              <img src="./src/assets/img/amor.png" alt="me gusta" width="50px"><strong>12</strong>
-              <img src="./src/assets/img/puntos-de-vista.png" alt="vistas" width="50px"><strong
-                id="meGusta6"></strong>
-            </div>
-          </div>
-          <div id="mostra_div6">
-
-            <button id="ejemplo_div6">x</button>
-            <h4>Preparación</h4>
-            <p>Calienta el agua con la canela y el piloncillo, mueve constantemente hasta que el
-              piloncillo se disuelva.
-              Disuelve,agrega el Café con 1 ½ tazas de Leche Evaporada y la fécula de maíz
-              previamente disuelta. Calienta hasta que espese ligeramente, moviendo constantemente
-              para evitar que se pegue.<br>Sirve.
-            </p>
-          </div>
-        </div>
-      </article>
-    </section>
-
-  </main>
-  <footer>
-    <div class="container__footer">
+</main>
+<footer>
+  <div class="container__footer">
       <div class="box__footer">
-        <div class="logo">
-          <img src="./img/video-placeholder.webp" alt="">
-        </div>
-        <div class="terms">
-          <p>¡Bienvenido al mundo del café!
-            Te invitamos a inscribirte a nuestros cursos y abrir las puertas de este maravilloso
-            mundo de aromas, sabores y conocimiento para convertirte en un Apasionado por el Café.
-          </p>
-        </div>
+          <div class="logo">
+              <img src="./img/video-placeholder.webp" alt="">
+          </div>
+          <div class="terms">
+              <p>¡Bienvenido al mundo del café!
+                Te invitamos a inscribirte a nuestros cursos y abrir las puertas de este maravilloso mundo de aromas, sabores y conocimiento para convertirte en un Apasionado por el Café.</p>
+          </div>
       </div>
       <div class="box__footer">
-        <h3>Acerca de: </h3>
-        <a href="#">WLANS Team </a>
-        <a href="#">Trabaje con nosotros </a>
-        <a href="#">Contacto </a>
+          <h3>Acerca de: </h3>
+          <a href="#">WLANS Team </a>
+          <a href="#">Trabaje con nosotros </a>
+          <a href="#">Contacto </a>
       </div>
-
+      
       <div class="box__copyright">
         <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
         <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
         <a href="#"><i class="fa-brands fa-square-github"></i>GitHub</a>
-        <hr>
-        <p><b>Todo los derechos reservados 2023 @WLANS Team </b></p>
+          <hr>
+          <p><b>Todo los derechos reservados 2023 @WLANS Team </b></p>
       </div>
-    </div>
-  </footer>
-  <!-- Modal  -->
-  <div id="modal_container">
   </div>
-  
-  <script src="./main.js"></script>
+</footer>
+<!-- Modal  -->
+<div  id="modal_container">
+</div>
+
+
+<script src="./main.js"></script>
 </body>
 </html>
+
