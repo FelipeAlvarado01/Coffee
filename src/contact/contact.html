@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./contactstyle.css">
+   <link rel="stylesheet" href="../assets/css/reset.css">
+   <link rel="stylesheet" href="../assets/css/header.css">
+   <title>Contactenos</title>
+ </head>
+
+ <body>
+  <!-- header -->
+  <header class="header">
+    <div class="header__container">
+      <!-- logo -->
+      <div class="header__container__logo">
+        <img src="../assets/img/logo_sinFondo.png" alt="Logo WLANS">
+      </div>
+      <!-- /logo -->
+      <nav class="hmenu">
+        <ul class="header__container__menu">
+          <li class="header__container__menu__list">
+            <a class="select active" href="./index.html">Inicio</a>
+          </li>
+          <li class="header__container__menu__list">
+            <a class="select" href="./src/component/aboutus/aboutus.html">Acerca</a>
+          </li>
+          <li class="header__container__menu__list">
+            <a class="select" href="#">Cursos</a>
+          </li>
+          <li class="header__container__menu__list">
+            <a class="select" href="#">Contactenos</a>
+          </li>
+          <li class="header__container__menu__list">
+            <a href="#"
+              ><img
+                class="sizeimg"
+                src="../assets/img/shoppingcart.png"
+                alt="Shopping cart icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- /header -->
+  
+   <h1 class="titulo">Contáctenos</h1>
+
+   
+   <section class="form">
+    <article class="contact-form">
+      <form class="contact" action="https://formspree.io/f/xayzelav" method="post">
+        <!--Form inputs-->
+        <p>
+          <label for="name">Nombre completo:</label>
+          <input type="text" id="name" name="user_name" placeholder="Ingrese su nombre completo">
+        </p>
+        <p>
+          <label for="mail">Correo electrónico:</label>
+          <input type="email" id="mail" name="user_mail" placeholder="Ingrese su correo electrónico">
+        </p>
+        <p>
+          <label for="asunto">Asunto:</label>
+          <input type="text" name="user_asunto" id="asunto" placeholder="Ingrese el asunto">
+        </p>
+        <p class="block">
+          <label for="msg">Mensaje:</label>
+          <textarea id="msg" name="user_message" rows="3" placeholder="Por favor ingrese su mensaje, pronto nos contactaremos con usted."></textarea>
+        </p>
+        <p class="block">
+          <button type="submit">Enviar</button>
+        </p>
+      </form>
+    </article>
+    
+    <!--Information section-->
+    
+    
+    <article class="contact-info">
+     
+      <h3 class="h4">Más información</h3> 
+      
+      <ul>
+        <li><img src="../assets/img/mapa.png">Bogotá, Colombia</li>
+        <li><img src="../assets/img/llamada.png" alt="telefono"> 601 444555</li>
+        <li><img src="../assets/img/hacer-clic.png" alt="web"> contact@coffeewlans.com</li>
+      </ul>
+      
+      <p>
+        <img src="../assets/img/derechos-de-autor.png" alt="">coffeewlans.com 
+      </p>
+      <div class="img">
+        <img src="../assets/img/vasoo.png" alt="">
+      </div>
+    </article>
+    
+  </section>
+  
+  <!--footer-->
+  <footer>
+    <div class="container__footer">
+        <div class="box__footer">
+            <div class="logo">
+                <img src="./img/video-placeholder.webp" alt="">
+            </div>
+            <div class="terms">
+                <p>¡Bienvenido al mundo del café!
+                  Te invitamos a inscribirte a nuestros cursos y abrir las puertas de este maravilloso mundo de aromas, sabores y conocimiento para convertirte en un Apasionado por el Café.</p>
+            </div>
+        </div>
+        <div class="box__footer">
+            <h3>Acerca de: </h3>
+            <a href="#">WLANS Team </a>
+            <a href="#">Trabaje con nosotros </a>
+            <a href="#">Contacto </a>
+        </div>
+        
+        <div class="box__copyright">
+          <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+          <a href="#"><i class="fa-brands fa-square-github"></i>GitHub</a>
+            <hr>
+            <p><b>Todo los derechos reservados 2023 @WLANS Team </b></p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
