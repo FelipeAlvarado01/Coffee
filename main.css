@@ -166,7 +166,7 @@ transform:scale(1.25)rotate(90deg);
 /* texto animado */
 
 .texto__animado{
-  margin: 50px;
+   margin: 50px; 
   width: 700px;
   height: 40px;
   font-size: 32px;
@@ -288,7 +288,7 @@ transform:scale(1.25)rotate(90deg);
  justify-content: right;
 }
 .backk h4{
-  margin: 20px;
+  margin:0 20px;
   font-size: 26px;
 }
  .redes{
@@ -512,12 +512,19 @@ justify-content: right;
 
   @media (max-width: 925px) {
 
+    .text__header{
+      display: flex;
+      margin: 0px 20px;
+     
+    }
+    .img_article{
+      margin: 0;
+      padding: 0;
+    }
     .logo1{
       max-width: 50px;
     }
-    .img__header{
-      height: 400px;
-    }
+    
     .img__header h1{
 
       margin: 50px 0 0;
@@ -535,10 +542,10 @@ justify-content: right;
   @media (max-width: 580px) { 
 
     .img__header{
+      width: 100vw;
       height: 250px;
     } 
     .curso_img{
-      background-color: red;
       display: block;
       width: 200px;
     }
@@ -556,4 +563,3 @@ justify-content: right;
     }
     
   }
-

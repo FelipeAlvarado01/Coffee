@@ -7,7 +7,7 @@ cursos.addEventListener('click',function(){
     <img src="./src/assets/img/img1-removebg-preview.png" alt="">
     <h3>WLANS COFFÉ</h3><br>
     <p>Introduce el codigo <samp>WLANS 1O</samp>.</p>
-    <button class="button_modal"><a href="index.html">Cupón 10%</a></button>
+    <button class="button_modal"><a href="src/component/cursos/index.html">Cupón 10%</a></button>
     <button class="modal__closed" id="closed">X</button>
   </div>
 </div>
