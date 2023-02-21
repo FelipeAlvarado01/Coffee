@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@400;600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;400&family=Quicksand:wght@600&display=swap');
 
 * {
@@ -18,7 +16,7 @@ body {
 .title {
   color: #f2f2f2;
   font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   /*border-radius: 10px;*/
@@ -29,10 +27,10 @@ body {
   max-width: 100%;
   height: auto;
   /*margin: 0 50px 0px 50px;*/
-  padding: 5em;
+  padding: 4em;
 }
 
-section {
+.section_styles {
   font-family: 'Nunito', sans-serif;
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -42,7 +40,7 @@ section {
   box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
 }
 
-article {
+.article_styles {
   display: grid;
   grid-template-columns: repeat(5, 20%);
   padding: 25px 50px;
@@ -52,14 +50,14 @@ div {
   padding: 0 20px;
 }
 
-img {
+.img_styles {
   border-radius: 10px;
   -webkit-box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
   -moz-box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
   box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
 }
 
-input {
+.input_styles{
   border: none;
   color: #580201;
   background-color: #ebebeb;
@@ -69,19 +67,19 @@ input {
   cursor: pointer;
 }
 
-input:hover {
+.input_styles:hover {
   transform: scale(1.05, 1.05);
   background-color: #240000;
   color: #f2f2f2;
 }
 
-input:active {
+.input_styles:active {
   transform: scale(0.95, 0.95);
   background-color: #160000;
   color: #f2f2f2;
 }
 
-li {
+.li_styles {
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
@@ -168,6 +166,13 @@ hr {
 }
 
 .total_product {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 20px 50px;
+  -webkit-box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
+  -moz-box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
+  box-shadow: 3px 3px 19px -8px rgba(13, 5, 2, 1);
   display: grid;
   grid-template-columns: repeat(2, 50%);
   font-size: 20px;
@@ -202,17 +207,17 @@ hr {
 }
 
 @media (max-width: 925px) {
-  input {
+  .input_styles {
     padding: 11px 6px;
     font-size: 16px;
   }
 
-  img {
+  .img_styles {
     max-width: 100%;
     height: auto;
   }
 
-  li {
+  .li_styles {
     font-size: 20px;
   }
 
@@ -222,7 +227,7 @@ hr {
 
   .title {
     background-image: url(../../../assets/img/background_header_3.jpg);
-    padding: 4em;
+    padding: 2em;
   }
 
   .description_product h3 {
@@ -264,17 +269,17 @@ hr {
 }
 
 @media (max-width: 580px) {
-  input {
+  .input_styles {
     padding: 11px 4px;
     font-size: 16px;
   }
 
-  img {
+  .img_styles {
     max-width: 100%;
     height: auto;
   }
 
-  li {
+  .li_styles {
     font-size: 15px;
   }
 
@@ -284,7 +289,7 @@ hr {
 
   .title {
     background-image: url(../../../assets/img/background_header_4.jpg);
-    padding: 2em;
+    padding: 1em;
   }
 
   .description_product h3 {
@@ -316,7 +321,7 @@ hr {
 /* Footer por modificare */
 footer{
   width: 100vw;
-  padding: 100px 0px;
+  padding: 25px 0px;
   background-image: url(./src/assets/img/background-footer.svg);
   background-size: cover;
 }
