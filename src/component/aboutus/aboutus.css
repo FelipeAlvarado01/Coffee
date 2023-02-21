@@ -245,7 +245,7 @@ text-decoration: none;
 @media (max-width: 580px) {
   /* main */
   .main__container {
-    margin-top: 20px;
+    margin: 0;
     height: 400px;
   }
   .main__container__h1 {

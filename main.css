@@ -539,27 +539,48 @@ justify-content: right;
 
     }
   }
-  @media (max-width: 580px) { 
-
+  @media (max-width: 580px) {
+    html{
+      overflow-x: hidden;
+    }
+    body{
+      overflow-x: hidden;
+    }
     .img__header{
-      width: 100vw;
+      max-width: 100%;
       height: 250px;
     } 
+    .curso_main{
+      display: block;
+      margin: 40px;
+      padding: 20px;
+    }
     .curso_img{
       display: block;
       width: 200px;
+      margin: 0 20px;
     }
 
     .curso_img h2{
       margin: 20px 0 ;
-      font-size: 20px;
+      font-size: 14px;
     }
     .curso_img ul li{
       font-size: 14px;
     }
 
+    
     .text__header{
       display: block;
+    }
+    .texto__animado{
+      margin: 0;
+      padding: 0;
+    }
+    footer{
+      display: none;
+      width: 100vw;
+ 
     }
     
   }
